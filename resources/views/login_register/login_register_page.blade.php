@@ -1,17 +1,6 @@
 @extends('login_register/layout_login_register_page')
 @section('title', 'landing')
 @section('content')
-<!-- <nav>
-    <div class="logo">
-        <img src="{{asset('images/logo_shopedia2.png')}}" alt="">
-        <h1>SHOPEDIA</h1>
-    </div>
-    <div class="navbar">
-        <ul>
-            <li>Login</li>
-        </ul>
-    </div>
-</nav> -->
 <div class="container">
     <section id="home">
         <img src="{{asset('images/background_landing4.jpg')}}" class="background">

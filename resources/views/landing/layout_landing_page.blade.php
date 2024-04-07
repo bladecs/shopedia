@@ -6,7 +6,6 @@
     <title>@yield('landing')</title>
     <link rel="stylesheet" href="{{asset('css/landing.css')}}">
     <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
-    <link rel="stylesheet" href="{{asset('css/login_register.css')}}">
 </head>
 <body>
     @yield('content')
