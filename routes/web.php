@@ -9,3 +9,6 @@ Route::get('/', function () {
 Route::get('/login',function(){
     return view('/login_register/login_register_page');
 });
+Route::get('/shoping',function(){
+    return view('/shoping/shoping_page');
+});
