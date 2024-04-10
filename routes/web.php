@@ -12,3 +12,6 @@ Route::get('/login',function(){
 Route::get('/shoping',function(){
     return view('/shoping/shoping_page');
 });
+Route::get('/items',function(){
+    return view('/items/items_page');
+});
